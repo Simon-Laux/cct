@@ -12,9 +12,9 @@ Inspired by https://gitlab.com/edu4rdshl/blog/ (accessed jan 2019 - before he de
 
 ## Table of Content
 
-1. Telegram
-1. WhatsApp
-1. Delta.Chat
+1. [Telegram](#telegram)
+1. [WhatsApp](#whatsapp)
+1. [Delta.Chat](#delta.chat)
 
 Note: This isn't a ranking - the order doesn't matter
 
@@ -48,12 +48,13 @@ Unlike as for WhatsAppWeb you don't also need a phone connected to the Internet 
 #### E2E encryption only in Secret Chats
 [ℹ️](https://telegram.org/faq#q-why-not-just-make-all-chats-secret)
 
-### What you should do to make it more secure
+### What you should do to make it more secure/private
 
 - Enable 2FA to prevent SMS account hijacking
 - Use Secret-chats for important 1 on 1 chats
 - Disable Contact Synchronization
-
+- (optional) Disable "last Online"
+- (optional) Disable Read-notefications
 
 ## WhatsApp
 
@@ -72,9 +73,20 @@ Unlike as for WhatsAppWeb you don't also need a phone connected to the Internet 
 - Closed Source (which means back-doors are easier to hide, if they would push any with an update)
 
 
-### What you should do to make it more secure
+#### requires you to upload your Contacts
+If you don't allow WhatsApp to upload your contacts by denying or removing the 'access contacts' permission, following things get disabled:
 
+- Creating Groups
+- Creating Broadcasts
+- Chatpartner names are only numbers (because whatsapp uses the name from the phones contact list)
+- Starting an chat with a specific Contact (only possible with third party apps or whatsapp-phone-number-links)
 
+That way the app becomes pretty much **unuseable**.
+
+### What you should do to make it more secure/private
+
+- (optional) Disable "last Online"
+- (optional) Disable Read-notefications
 
 ## Delta.Chat
 
@@ -94,9 +106,10 @@ Unlike as for WhatsAppWeb you don't also need a phone connected to the Internet 
 
 - Isn't out yet
 
-### What you should do to make it more secure
+### What you should do to make it more secure/private
 
 - Use Encryption -> talk to your chat partners about also using delta.chat or an other Autocrypt compatible Email Client
+- (optional) Disable Read-notefications
 
 
 ## Direct Feature Comparison
@@ -104,6 +117,8 @@ Unlike as for WhatsAppWeb you don't also need a phone connected to the Internet 
 
 Feature | Telegram | WhatsApp | Delta.Chat
 --------|----------|----------|-----------
+Clients availible* | Android, iOS, Windows, Mac, Linux, Web | Android, iOS, Nokia | Anroid, iOS, MacOS, Linux
+Decentrelized | -  | -        | ✅
 Max Group size| 200 upgradeable to 100K | 256 | 50 recommended: ✉️
 Delete Messages (also on recipient) | ✅ | ✅ | -
 Edit Messages | ✅  | -       | -
@@ -111,6 +126,7 @@ Stickers | ✅       | ✅       | -
 Pin messages | 1 message | -  | -
 File sharing | up to. 1,5 GB each | 100 mb | ✉️
 Pin Chats to top | ✅      | ✅       | -
+Archive Chats | -   | ✅      | ✅
 Voice Calls | ✅    | ✅       | -
 Video Calls | -    | ✅        | -
 Read Notifications | ✅ | ✅   | ✅ when chat partner uses delta.chat
@@ -118,5 +134,4 @@ Encryption | E2E | MTProto (E2E only in SecretChats) | E2E when recipient has au
 
 ✉️ depends on your email provider
 
-
-
+*Full clients that don't need an online phone
