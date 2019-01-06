@@ -31,7 +31,7 @@ Note: This isn't a ranking - the order doesn't matter
 - Group-members see only your user-name, not your phone number
 - $300K bounty to the person that cracks their MTProto Security [ℹ️](https://telegram.org/faq#q-what-if-my-hacker-friend-says-they-could-decipher-telegram-mes)
 - Self-destructing Messages in Secret chats
-- Client is open source and anybody can create their own Client ([but the open-sourcing of the official one is not very active](https://gitlab.com/edu4rdshl/blog/issues/2#note_129234369))
+- Client is open source and anybody can create their own Client ([but the sourcecode of the official one is not always updated immediately](https://gitlab.com/edu4rdshl/blog/issues/2#note_129234369))
 
 #### Cloud Messaging
 Cloud Messaging is one of Telegrams big advantages against other Messengers, because it allows true multi-device usage.
