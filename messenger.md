@@ -50,7 +50,7 @@ Unlike as for WhatsAppWeb you don't also need a phone connected to the Internet 
 
 ### What you should do to make it more secure/private
 
-- Enable 2FA to prevent SMS account hijacking
+- Enable 2FA to prevent SMS account hijacking (really important because of the cloud messaging)
 - Use Secret-chats for important 1 on 1 chats
 - Disable Contact Synchronization
 - (optional) Disable "last Online"
@@ -85,6 +85,7 @@ That way the app becomes pretty much **unuseable**.
 
 ### What you should do to make it more secure/private
 
+- Enable 2FA to prevent SMS account hijacking
 - (optional) Disable "last Online"
 - (optional) Disable Read-notefications
 
