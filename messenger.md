@@ -109,6 +109,7 @@ That way the app becomes pretty much **unuseable**.
 
 ### What you should do to make it more secure/private
 
+- Secure your Email account (strong password)
 - Use Encryption -> talk to your chat partners about also using delta.chat or an other Autocrypt compatible Email Client
 - (optional) Disable Read-notefications
 
