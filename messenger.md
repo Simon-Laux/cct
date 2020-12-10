@@ -130,7 +130,7 @@ Archive Chats | -   | ✅      | ✅
 Voice Calls | ✅    | ✅       | -
 Video Calls | -    | ✅        | -
 Read Notifications | ✅ | ✅   | ✅ when chat partner uses delta.chat
-Encryption | E2E | MTProto (E2E only in SecretChats) | E2E when recipient has autocrypt or delta.chat, otherwise TLS
+Encryption | MTProto (E2E only in SecretChats) | E2E | E2E when recipient has autocrypt or delta.chat, otherwise TLS
 
 ✉️ depends on your email provider
 
