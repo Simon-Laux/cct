@@ -1,5 +1,7 @@
 # Comparison of the different Messengers
 
+> DISCLAIMER: this document wasn't updated properly for some time so some information might be outdated.
+
 > DISCLAIMER: This document is not done its a Work in Progress
 
 Inspired by https://gitlab.com/edu4rdshl/blog/ (accessed jan 2019 - before he deleted most of his telegram article)
@@ -97,7 +99,7 @@ That way the app becomes pretty much **unuseable**.
 - Network Effect **nearly everybody** (everybody that has an Email account)
 - Chat over Email
 - Decentralized
-- Your Chat partner does not need delta.chat to chat with you - a
+- Your Chat partner does not need delta.chat to chat with you - a message is just an email and when your chat partner has a autocrypt capable email client you can even chat encrypted.
 - Full E2E Encryption over Autocrypt
 - Multi device usage Support
 - No Mobile number needed
@@ -105,7 +107,7 @@ That way the app becomes pretty much **unuseable**.
 
 ### Cons
 
-- Isn't out yet
+- You can not edit messages nor delete for your recipients them after you sent them out
 
 ### What you should do to make it more secure/private
 
@@ -124,7 +126,7 @@ That way the app becomes pretty much **unuseable**.
 | Stickers                            | ✅                                     | ✅                  | -                                                             |
 | Pin messages                        | 1 message                              | -                   | -                                                             |
 | File sharing                        | up to. 1,5 GB each                     | 100 mb              | ✉️                                                            |
-| Pin Chats to top                    | ✅                                     | ✅                  | -                                                             |
+| Pin Chats to top                    | ✅                                     | ✅                  | ✅                                                            |
 | Archive Chats                       | -                                      | ✅                  | ✅                                                            |
 | Voice Calls                         | ✅                                     | ✅                  | -                                                             |
 | Video Calls                         | -                                      | ✅                  | -                                                             |
